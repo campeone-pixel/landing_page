@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 50px;
+    
+}
+
+.encabezado > *, .menu-encabezado>*{
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+.menu-encabezado {
+    display: flex;
+    gap: 40px;
+}
